@@ -39,7 +39,7 @@ const smtpTransport = require('nodemailer-smtp-transport');
 'Zoho'
 */
 
-// 示例化邮件服务
+// 实例邮件服务
 const st = nodemailer.createTransport(smtpTransport({
   service: 'QQ', // 可以是上面任一服务
   auth: {
